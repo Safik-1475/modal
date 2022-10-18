@@ -11,13 +11,15 @@ modalBtn.addEventListener('click', function () {
     // };
 
     // one line code 
-    modalOverlay.classList.toggle('open-modal');
+    // modalOverlay.classList.toggle('open-modal');
+    modalOverlay.classList.add('open-modal');
 });
 
 // close btn event 
 closeBtn.addEventListener('click', function () {
-    if (modalOverlay.classList.contains('open-modal')) {
-        modalOverlay.classList.remove('open-modal');
-    }
-    // modalOverlay.classList.toggle('open-modal')
+    // if (modalOverlay.classList.contains('open-modal')) {
+    //     modalOverlay.classList.remove('open-modal');
+    // }
+    // modalOverlay.classList.toggle('open-modal');
+    modalOverlay.classList.remove('open-modal');
 });
